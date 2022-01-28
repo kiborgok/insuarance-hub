@@ -7,7 +7,7 @@
 ## Table of Contents
 
 + [Description](#description)
-+ [Installation Requirement](#Installation)
++ [Setup/Installation Requirements](#setup/installation-requirements)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
