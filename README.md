@@ -7,7 +7,7 @@
 ## Table of Contents
 
 + [Description](#description)
-+ [Setup/Installation Requirements](#setup/installation-requirements)
++ [Setup Requirements](#setup-requirements)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -15,7 +15,7 @@
 ## Description
 #### This website allows users to register/login and use premium services that include the insurance types provided. The purpose of our insurance services is to reduce financial uncertainty and make accidental loss manageable.
 
-## Setup/Installation Requirements
+## Setup Requirements
 ### Local machine setup
 * Clone this repository to your preferred location in your machine.
 
