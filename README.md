@@ -13,7 +13,7 @@
 + [Licence](#licence)
 
 ## Description
-### This website allows users to register/login and use premium services that include the insurance types provided. The purpose of our insurance services is to reduce financial uncertainty and make accidental loss manageable.
+#### This website allows users to register/login and use premium services that include the insurance types provided. The purpose of our insurance services is to reduce financial uncertainty and make accidental loss manageable.
 
 ## Setup/Installation Requirements
 ### Local machine setup
