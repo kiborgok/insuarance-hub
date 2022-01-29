@@ -317,19 +317,83 @@ form>input[type=submit] {
     flex-direction: column;
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .pricing-intro{
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .pricing-intro > h2{
     margin-bottom: 20px;
 }
 
+.pricing-options{
+    display: flex;
+    align-items: flex-end;
+}
+
+.pricing-options > div{
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    padding: 10px;
+    height: 500px;
+}
+
+.pricing-options > div:nth-child(2){
+    background-color: #252B42;
+    height: 525px;
+}
+
+.pricing-options > div > article > h3{
+    margin: 20px 0px;
+}
+.pricing-options>div>article > div:nth-child(2){
+    margin: 20px 0px;
+    color: gray;
+    font-weight: bold;
+}
+
+.pricing-options>div>article>div:nth-child(3) {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #23A6F0;
+}
+
+.pricing-options>div>article>div>strong{
+    font-size: 1.8em;
+}
+
+.dollar{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.pricing-options>div>ul {
+    margin: 20px 0px;
+    text-align: left;
+    color: black;
+}
+.pricing-options>div>ul>div>li{
+    font-weight: normal;
+    font-size: 1em;
+}
+.pricing-options>div>button {
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+    margin-bottom: 30px;
+    background-color: #23A6F0;
+    padding: 8px 70px;
+    color: white;
+}
 
 footer{
     display: flex;
