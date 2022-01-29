@@ -15,9 +15,9 @@ main{
     flex: 1;
 }
 
-main > div{
+main > .header-bg{
     height: 800px;
-     background-color: ghostwhite;
+    background-color: ghostwhite;
 }
 
 header{
@@ -392,6 +392,121 @@ form>input[type=submit] {
     margin-bottom: 30px;
     background-color: #23A6F0;
     padding: 8px 70px;
+    color: white;
+}
+
+.map-section{
+    position: relative;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+}
+
+.map-section > .map{
+    background-color: #252B42;
+    display: flex;
+    height: 550px;
+}
+
+.map-info{
+    color: white;
+    width: 50%;
+    margin: 10px;
+    padding-top: 50px;
+    padding: 60px;
+}
+
+.map-info > div > h2{
+    margin: 10px 0px;
+}
+
+.map-info > p{
+    padding-right: 30px;
+}
+
+.map-section>.map > div:nth-child(2){
+    width: 50%;
+    margin: 10px;
+    padding-top: 50px;
+}
+
+.map-section>.map>div>img{
+    width: 60%;
+}
+
+.image-form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 31%;
+    top: 360px;
+}
+
+.image-form>div:first-child{
+    display: flex;
+    width: 240px;
+}
+
+.image-form > div > img{
+    width: 100%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    width: -webkit-fill-available;
+}
+
+.form > h3{
+    text-align: center;
+}
+
+.form > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form > form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.form>form>div>label {
+    margin: 5px 0px;
+}
+
+.form>form>div>input[type=text],
+.form>form>div>select[type=select],
+.form>form>div>input[type=email],
+.form>form>div>input[type=submit] {
+    padding: 8px;
+    background-color: ghostwhite;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.form>form>div>input[type=submit]{
+    background-color: #23A6F0;
+    color: white;
+}
+
+.below-img-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 30px 30px 30px;
+}
+
+.contact-us{
+    padding: 15px 25px;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
     color: white;
 }
 
