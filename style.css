@@ -82,8 +82,8 @@ nav > div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px ;
-    margin: 20px 10px 10px 10px;
+    padding: 10px ;
+    margin: 40px 10px 10px 10px;
     color: white;
 }
 
@@ -93,16 +93,37 @@ nav > div{
     flex-direction: column;
     font-size: 2.9em;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .fore-text > .quote{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.fore-text > header-btns{
+.fore-text > .header-btns{
     display: flex;
+    padding: 5px;
+}
+
+.header-btns > button{
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.header-btns button:first-child{
+    background-color: #23A6F0;
+}
+
+.header-btns button:nth-child(2) {
+    background-color: transparent;
+    border: 1px solid white;
 }
 
 footer{
