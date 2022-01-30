@@ -512,5 +512,53 @@ form>input[type=submit] {
 
 footer{
     display: flex;
-    background-color: yellow;
+    flex-direction: column;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    margin: 10px 0px;
+
+}
+
+.top-footer > div{
+    margin: 5px;
+}
+
+.top-footer>div> p{
+    padding: 5px 0px;
+}
+
+.top-footer>div>h3 {
+    padding: 5px 0px;
+}
+
+.top-footer>div:last-child > div {
+    display: flex;
+}
+
+.top-footer>div:last-child>div {
+    margin: 6px 0px;
+}
+
+.top-footer>div:last-child>div>span>img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.lower-footer{
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.lower-footer > div{
+    margin: 5px;
+}
+
+.lower-footer > div > img{
+    width: 25px;
 }
